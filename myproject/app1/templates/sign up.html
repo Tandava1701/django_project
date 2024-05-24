@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>SignUp</title>
+     <link rel="stylesheet" href="/static/css/signup.css">
+</head>
+<center>
+
+<h1 style="color:orange">SIGN UP</h1>
+</center>
+<div class="bg-img" style="background-color:#ffd1df">
+<form action="http://127.0.0.1:8000/hai/" class="container" method="post" style="background-color:#ffd1df">
+
+
+            <label>Name
+                <input type="text" name="customer_name" required>
+            </label>
+
+<br>
+
+
+
+
+
+            <label>Email
+                <input type="email" name="email_address" required>
+            </label>
+
+
+    <br>
+
+            <legend required>Gender</legend> <br>
+       <input type="checkbox" name="extras" value="baby" >Male  <br>
+         <input type="checkbox" name="extras" value="wheelchair" >Female <br>
+        <input type="checkbox" name="extras" value="tip" >Others <br>
+
+
+
+            <label>DOB
+                <input type="date" required>  <br>
+            </label>
+
+
+
+
+            <label>Create Password
+                <input type="password" name="dropoff_place" required list="destinations" placeholder='enter atleast one uppercase,symbol,8 characters' > <br>
+
+            </label>>
+
+
+            <label>Confirm Password
+                <input type="password" name="comments" maxlength="10"  required></>  <br>
+            </label>
+
+
+        <button>SIGN UP</button>
+
+    </form>
+</form>
+</div>
+
+</html>

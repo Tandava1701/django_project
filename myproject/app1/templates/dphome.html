@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="/static/images/bedroom.jpg">
+<link rel="stylesheet" href="/static/images/kitchen.jpg">
+<link rel="stylesheet" href="/static/images/living room.jpg">\
+<link rel="stylesheet" href="/static/css/text.css">
+<body style="color:#e8f4f7">
+<h1 style="color:red">
+  <center>
+    welcome to livespace
+  </center>
+</h1>
+{% extends 'home1.html' %}
+<nav class="navbar navbar-expand-lg bg-warning" >
+  <div    class="container-fluid" class="text-bg-danger p-8">
+    <a class="navbar-brand"  href="http://127.0.0.1:5000">LIVESPACE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5000/home2"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/home2">Interior</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link">Service</a>
+        <li class="nav-item">
+          <a class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/home2">About us</a>
+        </li>
+        </li>
+      </ul>
+      <form bgcolor="red " class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" label="Search">
+        <button class="btn btn-outline-success p-2" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+<br>
+<h1 m-9>
+  Design Gallery
+</h1>
+<p m-9> Explore inspirational designs for every room to transform your home to a dream home.</p>
+
+<div class="contain">
+  <img src="/static/images/bedroom.jpg" width="33%" height="25%">
+  <div class="bottom-left" STYLE="COLOR:RED">BEDROOM</div>
+</div>
+</body>
